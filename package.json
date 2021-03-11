@@ -1,0 +1,40 @@
+{
+  "name": "@allbin/sirius-sms",
+  "version": "0.0.1",
+  "description": "Send SMSes using Sirius",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "lint": "eslint --ext .ts src",
+    "prebuild": "npm run lint",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allbin/sirius-sms.git"
+  },
+  "keywords": [
+    "sms",
+    "sirius"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allbin/sirius-sms/issues"
+  },
+  "homepage": "https://github.com/allbin/sirius-sms#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0",
+    "eslint": "^7.21.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "@allbin/eslint-config": "0.0.11",
+    "axios": "^0.21.1",
+    "query-string": "^6.14.1"
+  }
+}
